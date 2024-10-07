@@ -7,7 +7,15 @@ export default {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // Add your custom font families here
+        bitter: ['Bitter', 'serif'],
+        fraunces: ['Fraunces', 'serif'],
+        greatVibes: ['Great Vibes', 'cursive'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     daisyui,
